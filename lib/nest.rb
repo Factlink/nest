@@ -15,7 +15,7 @@ class Nest < String
   :ttl, :type, :unsubscribe, :watch, :zadd, :zcard, :zcount,
   :zincrby, :zinterstore, :zrange, :zrangebyscore, :zrank, :zrem,
   :zremrangebyrank, :zremrangebyscore, :zrevrange, :zrevrangebyscore,
-  :zrevrank, :zscore, :zunionstore]
+  :zrevrank, :zscore, :zunionstore, :mapped_hmget, :mapped_hmset]
 
   attr :redis
 
